@@ -1,0 +1,7 @@
+image: /empty_utm.pgm  # .pgm 파일의 경로
+resolution: 0.05  # 1 픽셀당 실제 거리, 단위: m
+origin: [0.0, 0.0, 0.0]  # 맵의 원점 (x, y, yaw)
+negate: 0  # 맵의 색상 반전 여부
+occupied_thresh: 0.65  # 장애물로 간주할 픽셀 값의 임계치
+free_thresh: 0.196  # 빈 공간으로 간주할 픽셀 값의 임계치
+
